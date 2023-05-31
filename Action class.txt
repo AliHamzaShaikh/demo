@@ -1,0 +1,45 @@
+ACTIONS class
+action class is concrete class in selenium package
+it is used to perform keybord mouse gestures
+
+Steps for action class
+
+->u hv to create object of actions
+Actions a = new Actions();
+
+->Webdriver reference is passed as an argument for Action Constructor
+Actions a = new Actions(driver)
+
+->with reference variable call non-static methods a.click()
+
+*->call a method called perform method
+
+Methods 
+
+1) Click()
+2)Click (WebElement target)
+3)ContextClick()
+4)ContextClick(webelement target)
+5)Double Click()
+6)Double Click(WebElement target)
+7)Click & hold()
+8)Click & hold(Web Element target)
+9)Reference()
+10)Reference(WebElement target)
+11) MoveToElement(WebElement target)
+12)MoveToElement(WebElement int x off set, int y offset)
+13)MoveByoffset(int x offset, int y offset)
+14)KeyUp()
+15)KeyDown()
+16)SendKeys(charSequence)
+17)SendKeys(WebElement,charSequence)
+18)drag&Drop()
+19)drag&DropBy()
+20)Perform()
+21)build()
+
+
+
+
+
+//li[@class='jsx-947163246 position-relative mr-12 list-item-text nav-item']

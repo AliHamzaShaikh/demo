@@ -1,0 +1,12 @@
+Enum
+enumeration
+=> it is going to hold group of constants
+=> to acheive uniformity
+
+
+
+4 java template 
+1 enum
+2 annotation
+3 char
+4 interface
